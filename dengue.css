@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* NAV */
+nav {
+    background: #1e8449;
+    text-align: center;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #a9dfbf;
+}
+
+/* SEÇÕES */
+.secao {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.destaque {
+    background: #ecfdf5;
+}
+
+.verde {
+    background: #27ae60;
+    color: white;
+}
+
+/* CONTEÚDO */
+.conteudo {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* BOTÃO */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1e8449;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* LISTAS */
+.lista {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.lista li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
